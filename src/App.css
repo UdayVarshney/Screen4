@@ -1,38 +1,359 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body{
+    background-color: #d4dcf1;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 50px;
+    
+    
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  
+   
+  
+  
+  .App{
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .SideNavBar{
+    height: 100%;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+  }
+  
+  img{
+    height: 100px;
+   padding-top: 50px;
+    padding-left: 3%;
+  }
+  
+  .NavbarList{
+    height:auto;
+    width:250px; 
+    padding-left: inherit;
+    
+  }
+  
+  .NavbarList .row {
+  width:100%;
+  height:50px;
+  margin:0%;
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  color:#0f2846;
+  
+  
+  }
+  
+  .NavbarList .row:hover{
+    cursor:pointer;
+    background-color: #f0f1f6;
+  }
+  
+  .row #icon{
+    flex:30%;
+    display:grid;
+    place-items:center;
+    
+  }
+  
+  .row #title{
+    flex:70%;
+  }
+
+  .TopHeader{
+    position: absolute;
+    top:10px;
+    left:25%;
+    color:#304461;
+    }
+
+    .TopHeader h2{
+       line-height:2.2;
+    }
+    .TopHeader h3,h2{
+        line-height:0.8;
+    }
+
+    .flex-container{
+        position :absolute;
+        top:50px;
+        right: 10%;
+        padding-left: 50%;
+        display:flex;
+        flex-direction: row;
+        padding-left:30%;
+        justify-content: flex-start;
+        margin-left: 70%;
+        margin-right: -160%;
+    }
+
+    .flexbox1{
+        display:"flex";
+        flex-direction:"row";
+        justify-Content:"top";
+        padding-left:21%;
+        position :absolute;
+        top:80px;
+        padding-top: 10%;
+        padding-right: 60%;
+    }
+    .flexbox2{
+        display:"flex";
+        flex-direction:"row";
+        justify-Content:"top";
+        padding-left:21%;
+        position :absolute;
+        top:80px;
+        padding-top: 19%;
+        padding-right: 60%;
+    }
+
+    .text1{
+        padding-top:9% ;
+        padding-right: 60%;
+        line-height:0.2;
+        padding-left:5%;
+        margin-right:5%;
+    }
+
+    .text2{
+        padding-top:9% ;
+        padding-right: 60%;
+        line-height:0.3;
+        padding-left:5%;
+        margin-right:5%;
+    }
+    .text3{
+        padding-top:9% ;
+        padding-right: 60%;
+        line-height:0.3;
+        padding-left:5%;
+        margin-right:5%;
+    }
+    .text4{
+        padding-top:9% ;
+        padding-right: 60%;
+        line-height:0.3;
+        padding-left:5%;
+        margin-right:5%;
+    }
+
+    .Services1{
+        display:"flex";
+        flex-direction:"row";
+        justify-Content:"top";
+        padding-left:18%;
+        position :absolute;
+        top:60px;
+        padding-top: 4%;
+        padding-right: 20%;
+        color:#182947;
+        line-height: 0.3;
+    }
+
+    .Services2{
+        
+        padding-left:18%;
+        position :absolute;
+        top:60px;
+        padding-top: 10.1%;
+        padding-right: 20%;
+        color:#182947;
+        line-height: 0.3;
+    }
+
+    .Services3{
+        padding-left:18%;
+        position :absolute;
+        top:60px;
+        padding-top: 17.6%;
+        padding-right: 20%;
+        color:#182947;
+        line-height: 0.3;
+    }
+
+    .Services4{
+        padding-left:18%;
+        position :absolute;
+        top:60px;
+        padding-top: 23.2%;
+        padding-right: 20%;
+        color:#182947;
+        line-height: 0.3;
+    }
+
+   .Requested1{
+    display:"flex";
+    flex-direction:"row";
+    justify-Content:"top";
+    padding-left:30%;
+        position :absolute;
+        top:40px;
+        padding-top:5.5%;
+        padding-right: 3%;
+        color:#182947;
+        line-height: 0.000006;      
+        margin-right: 10%;
+        width: 300px;
+   }
+
+
+   .button1{
+    padding-left:40%;
+        position :absolute;
+        top:60px;
+        padding-top: 4.8%;
+        padding-right: 20%;
+        color:#182947;
+        line-height: 0.3;
+   }
+
+   .button2{
+    padding-left:40%;
+    position :absolute;
+    top:60px;
+    padding-top: 10.6%;
+    padding-right: 20%;
+    color:#182947;
+    line-height: 0.3;
+   }
+
+ 
+
+    .Requested2{
+        padding-left:30%;
+        position :absolute;
+        top:40px;
+        padding-top: 11.5%;
+        padding-right: 1%;
+        color:#182947;
+        line-height: 0.3;      
+        margin-right: 10%; 
+    }
+
+    .Requested3{
+        padding-left:30%;
+        position :absolute;
+        top:40px;
+        padding-top: 19%;
+        padding-right: 1%;
+        color:#182947;
+        line-height: 0.3;      
+        margin-right: 10%;
+    }
+
+    .Requested4{
+        padding-left:30%;
+        position :absolute;
+        top:40px;
+        padding-top: 24.7%;
+        padding-right: 1%;
+        color:#182947;
+        line-height: 0.3;      
+        margin-right: 10%;
+    }
+
+
+
+
+    .flexbox3{
+        display:"flex";
+        flex-direction:"row";
+        justify-Content:"top";
+        padding-left:21%;
+        position :absolute;
+        top:80px;
+        padding-top: 30.5%;
+        padding-right: 60%;
+    }
+
+    .flexbox4{
+        display:"flex";
+        flex-direction:"row";
+        justify-Content:"top";
+        padding-left:21%;
+        position :absolute;
+        top:80px;
+        padding-top: 39%;
+        padding-right: 60%;
+    }
+
+    .flexbox1 h4{
+        padding-left:0.03%;
+        padding-top:4%;
+        left:5%;
+    }
+
+    .icon1{
+        padding-top: 6%;
+        padding-left: 4%;
+    }
+
+    .icon2 {
+        padding-top: 6%;
+        padding-left: 4%;
+    }
+    
+    .icon3{
+        padding-top: 7%;
+        padding-left: 4%;
+    }
+    .icon4{
+        padding-top: 7%;
+        padding-left: 4%;
+    }
+
+.view1{
+    
+    padding-left:40.25%;
+    position :absolute;
+    top:40px;
+    padding-top: 7%;
+    padding-right: 50%;
+    color:#182947;
+    line-height: 0.3;      
+    margin-right: 40%; 
+    width:100px;  
 }
 
-.App-link {
-  color: #61dafb;
+.view2{
+    padding-left:40.25%;
+    position :absolute;
+    top:40px;
+    padding-top: 13%;
+    padding-right: 1%;
+    color:#182947;
+    line-height: 0.3;      
+    margin-right: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.view3{
+    padding-left:40.25%;
+    position :absolute;
+    top:40px;
+    padding-top: 19.5%;
+    padding-right: 1%;
+    color:#182947;
+    line-height: 0.3;      
+    margin-right: 10%;
+}
+
+.view4{
+    padding-left:40.25%;
+    position :absolute;
+    top:40px;
+    padding-top: 25%;
+    padding-right: 1%;
+    color:#182947;
+    line-height: 0.3;      
+    margin-right: 10%;
+}
+
+.accept{
+    padding-top: 61%;
 }
